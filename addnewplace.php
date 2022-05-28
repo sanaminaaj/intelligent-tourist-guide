@@ -3,7 +3,7 @@
     <title>ADD PLACES</title>
     <style>
     body{
-    background-image:url("bg.jpg");
+    background-image:url("falls");
      background-repeat: no-repeat;
      text-align:center;
      color: black;

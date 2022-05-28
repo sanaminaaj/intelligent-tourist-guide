@@ -3,11 +3,12 @@
 <title>admin</title>
 <style> 
    body{
-   background-image:url("back");
+   background-image:url("h.gif");
    background-repeat:no-repeat;
    background-size:100% 100%;
    text-align:center;
-   font-size:20px;
+   font-size:20px; 
+   color:white;
   }
   </style>
 </head>

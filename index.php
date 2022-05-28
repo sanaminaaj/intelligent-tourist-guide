@@ -10,7 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <style>
        body{
-        font-size: 25px;}
+        font-size: 25px;
+	text-align:center;
+	
+	}
+	span{
+	color: blue;
+	}
         </style>
     <title>Intelligent Tourist Guide</title>
   </head>
@@ -36,7 +42,8 @@
    <a href="https://goo.gl/maps/zegeRy9ZvWPLPUkf6" style="color:black;">Map</a>
    
    <a href="feedback1.html" style="color:black;">Feedback</a>
-   <a href="login.html" style="color:black;">Admin</a>
+<?php echo '<a href="login.php" style="color:black;">admin</a>';?> 
+   
 <?php echo '<a href="search1.php" style="color:black;">view places</a>';?> 
   </div>
   <div class="carousel-inner">
@@ -70,6 +77,27 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<h4><b>About India</b></h4>
+<p>
+Tourism in India has shown a phenomenal growth in the past decade. One of the reasons is that the Ministry of tourism, India has realized the immense potential of tourism in India during vacations. India travel tourism has grown rapidly with a great influx of tourists from all across the globe who have been irresistibly attracted to the rich culture, heritage, and incredible natural beauty of India. India tourism with its foggy hill stations, captivating beaches, historical monuments, golden deserts, serene backwaters, pilgrimage sites, rich wildlife, and colourful fairs capture the heart of every tourist. In addition, a variety of festivals, lively markets, vibrant lifestyle, and traditional Indian hospitality, will make your experience as an india tourist truly unforgettable and fantastic. Travel through the lovely Indian states and discover closely the resplendent colors and rich cultural locales of this incredible land. Our India tourism guide provides you a glimpse of travel and tourism in india ,india tourism information about south india tourism, north India tourism, and all the major tourist destinations, and tourism services of India. </p>
+<div>
+<figure class="figure">
+  <a href="east1.html"><img src="east.jpeg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><span class="caption">EAST INDIA</span></figcaption></a>
+</figure>
+<figure class="figure">
+ <a href=""> <img src="west.jpeg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><span class="caption">WEST INDIA</span></figcaption></a>
+</figure>
+<figure class="figure">
+   <a href=""><img src="north.jpeg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><span class="caption">NORTH INDIA</span></figcaption></a>
+</figure>
+<figure class="figure">
+   <a href=""> <img src="south.jpeg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><span class="caption">SOUTH INDIA</span></figcaption></a>
+</figure>
 </div>
   </body>
 </html>
